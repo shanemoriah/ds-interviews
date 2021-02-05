@@ -1,6 +1,7 @@
 # Predicting Defaults of Consumer Loans
 
 ## Summary
+* Goal: classifying loans into the good ones (those that will repay) and the bad ones (those that will default)
 * Data source: historical performance of Lending Club consumer loans 
 * Model type: logistic regression
 * Performance: 92.53% true positive rate/97.58% true negative rate; 97.86% AuC
