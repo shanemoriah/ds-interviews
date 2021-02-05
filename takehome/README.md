@@ -8,11 +8,15 @@
 ## Model Evaluation
 Overall, the model is expected to correctly predict 92.53% of the charged-off cases and 97.58% of the fully-paid cases. In other words, given a new loan application, the model will label it as charged-off 92.53% of the time if it defaults eventually, or label it as fully-paid 97.58% of the time if it does get paid off eventually.
 
-![confusion matrix](plot_confusion_matrix.png)
+<div align="center">
+  <img src="plot_confusion_matrix.png" />
+</div>
 
 The model also has an out-of-sample AuC of 97.86%, indicating a strong ability to separate the two classes on the scale of 0% (terrible model) to 100% (perfect model).
 
-![roc](plot_roc.png)
+<div align="center">
+  <img src="plot_roc.png" />
+</div>
 
 Being a logistic regression model, it attempts to establish a connection between various loan attributes and the probability of default. Total payment received, total borrowed amount and whether the borrower is on a hardship plan turn out to be the 3 most important factors in the model.
 
