@@ -98,7 +98,7 @@ training_data_final <- upSample(
 
 # train model
 # this step can be iterative depending on 
-# 1) subjective judgment (based prior knowledge of what tends to correlate with a default) and 
+# 1) subjective judgment (based on prior knowledge of what tends to correlate with a default) and 
 # 2) variable importance (as indicated by z-stats)
 model_logistic_regression <- train(
   form = loan_status ~ loan_amnt + funded_amnt + term + int_rate +
