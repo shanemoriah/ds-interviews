@@ -13,7 +13,7 @@ Overall, the model is expected to correctly predict 92.53% of the charged-off ca
   <img src="plot_confusion_matrix.png" />
 </div>
 
-The model also has an out-of-sample AuC of 97.86%, indicating a strong ability to separate the two classes on the scale of 0% (terrible model) to 100% (perfect model).
+The model also has an out-of-sample AuC of 97.86%, indicating a fairly decent ability to separate the two classes on the scale of 0% (terrible model) to 100% (perfect model).
 
 <div align="center">
   <img src="plot_roc.png" />
