@@ -1,7 +1,7 @@
 library(tidyverse) # for data manipulation and visualization
 library(rio) # for data i/o
 library(caret) # for model routines
-library(plotROC) # for RoC routines
+library(plotROC) # for ROC routines
 
 
 #==== general setup ====
@@ -169,7 +169,7 @@ plot_roc <- ggplot(prediction, aes(m = `Fully Paid`, d = actual)) +
     strip.background = element_rect(fill = "gray90", color = NULL)
   ) + 
   facet_wrap(.~type) +
-  ggtitle("RoC (AuC = 98.00%, 97.86%)")
+  ggtitle("ROC (AuC = 98.00%, 97.86%)")
 calc_auc(plot_roc)
 
 # visualize the confusion matrix
