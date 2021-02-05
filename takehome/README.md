@@ -1,9 +1,9 @@
 # Predicting Defaults of Consumer Loans
 
 ## Summary
-Data source: historical performance of Lending Club consumer loans 
-Model type: logistic regression
-Performance: 92.53% true positive rate/97.58% true negative rate, 97.86% AuC
+* Data source: historical performance of Lending Club consumer loans 
+* Model type: logistic regression
+* Performance: 92.53% true positive rate/97.58% true negative rate; 97.86% AuC
 
 ## Model Evaluation
 Overall, the model is expected to correctly predict 92.53% of the charged-off cases and 97.58% of the fully-paid cases. In other words, given a new loan application, the model will label it as charged-off 92.53% of the time if it defaults eventually, or label it as fully-paid 97.58% of the time if it does get paid off eventually.
