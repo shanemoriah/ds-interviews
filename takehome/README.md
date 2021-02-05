@@ -19,7 +19,7 @@ The model also has an out-of-sample AuC of 97.86%, indicating a fairly decent ab
   <img src="plot_roc.png" />
 </div>
 
-Being a logistic regression model, it attempts to establish a connection between various loan attributes and the probability of default. Total payment received, total borrowed amount and whether the borrower is on a hardship plan turn out to be the 3 most important factors in the model.
+Being a logistic regression model, it also uncovers interesting insights in terms of the connection between various loan attributes and the probability of default. Total payment received, total borrowed amount and whether the borrower is on a hardship plan turn out to be the 3 most important factors in the model.
 
 ## The Process Explained
 
